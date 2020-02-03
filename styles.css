@@ -1,21 +1,8 @@
-body, html{
-    height: 100%;
+body{
+    background-color: green;
 }
-.father{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    height: 100%;
-    flex-direction: column-reverse;
-    flex-wrap: no-wrap-reverse;
-}
-.box{
-    background-color: red;
-    border: 1px solid black;
-    width: 200px;
-    height: 200px;
-    display: row;
-    justify-content: center;
-    align-items: center;
-    color: white;
+@media screen and (min-width:320px) and (max-width:640px){
+    body{
+        background-color: blue;
+    }
 }
