@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://kit.fontawesome.com/c01f686e44.js" crossorigin="anonymous"></script>
-    <title>Chat | Kakao Clone</title>
+    <title>Friends | Kakao Clone</title>
 </head>
 <body>
     <div class="status-bar">
@@ -22,38 +22,63 @@
     </div>
     <header class="header">
         <div class="header__header-column">
-            <h1 class="header__title">Chats</h1>
+            <h1 class="header__title">Friends</h1>
         </div>
         <div class="header__header-column">
             <span class="header__icon">
                 <i class="fas fa-search"></i>
             </span>
             <span class="header__icon">
-                <i class="far fa-comment"></i>
-            </span>
-            <span class="header__icon">
                 <i class="fas fa-cog"></i>
             </span>
         </div>
     </header>
-    <main class="chats">
-        <ul class="chats__list">
-            <li class="chats__chat chat">
-                <div class="chat__column">
-                    <img src="images/avatar.jpg" alt="" class="chat__avatar">
-                    <div class="chat__content">
-                        <span class="chat__username">
-                            Jiseon
+    <main class="friends">
+        <header class="firends__hearder">
+            <div class="friends__friend friend friend--lg">
+                <div class="friend__column">
+                    <img src="images/my_avatar.jpg" alt="" class="g-avatar friend__avatar" />
+                    <div class="friend__content">
+                        <span class="friend__name">
+                            백용진
                         </span>
-                        <span class="chat__preview">
-                            나 도착했는데!
+                        <span class="friend__status">
+                            이직하자 용진아
                         </span>
                     </div>
                 </div>
-                <div class="chat__column">
-                    <div class="chat__timestamp">
-                        yesterday
+            </div>
+        </header>
+        <div class="friends__plus">
+            <h5 class="friends__title">Plus friend</h5>
+            <div class="friends__friend friend friend">
+                <div class="friend__column">
+                    <img src="images/my_avatar.jpg" alt="" class="g-avatar friend__avatar" />
+                    <div class="friend__content">
+                        <span class="friend__name">
+                            Plus friend
+                        </span>
                     </div>
+                </div>
+            </div>
+        </div>
+        <ul class="friends__list">
+            <h5 class="friend__title">Friends 14</h5>
+            <li class="friends__friend friend friend--lg">
+                <div class="friend__column">
+                    <img src="images/my_avatar.jpg" alt="" class="g-avatar friend__avatar" />
+                    <div class="friend__content">
+                        <span class="friend__name">
+                            백용진
+                        </span>
+                        <span class="friend__status">
+                            이직하자 용진아
+                        </span>
+                    </div>
+                </div>
+                <div class="friend__now-listening">
+                    <span>Click Me (2013) [feat. Dok2]</span>
+                    <i class="fas fa-play"></i>
                 </div>
             </li>
         </ul>
@@ -62,12 +87,12 @@
         <ul class="nav_list">
             <li class="nav__list-item">
                 <a href="friends.html" class="nav__list-link">
-                    <i class="far fa-user"></i>
+                    <i class="fas fa-user"></i>
                 </a>
             </li>
             <li class="nav__list-item">
                 <a href="Index.html" class="nav__list-link">
-                <i class="fas fa-comment"></i>
+                <i class="far fa-comment"></i>
                 </a>
             </li>
             <li class="nav__list-item">
