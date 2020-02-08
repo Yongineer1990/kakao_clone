@@ -7,62 +7,76 @@
     <script src="https://kit.fontawesome.com/c01f686e44.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/styles.css">
     <title>Chat | Kakao Clone</title>
-</head>
-<body>
-    <div class="status-bar">
-        <div class="status-bar__column">
-            <span class="status-bar__clock">23:37</span>
+</head>    
+<body class="chats-body">
+    <div class="header-wrapper">
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span class="status-bar__clock">23:37</span>
+            </div>
+            <div class="status-bar__column">
+                <i class="fas fa-clock"></i>
+                <i class="fas fa-volume-up"></i>
+                <i class="fas fa-wifi"></i>
+                <span class="status-bar__battery-level">100%</span>
+                <i class="fas fa-battery-full"></i>
+            </div>
         </div>
-        <div class="status-bar__column">
-            <i class="fas fa-clock"></i>
-            <i class="fas fa-volume-up"></i>
-            <i class="fas fa-wifi"></i>
-            <span class="status-bar__battery-level">100%</span>
-            <i class="fas fa-battery-full"></i>
-        </div>
+        <header class="header">
+            <div class="header__header-column">
+                <a href="index.html" class="header__back-btn">
+                    <i class="fas fa-arrow-left"></i>
+                </a>
+                <h1 class="header__title">Best Friend</h1>
+            </div>
+            <div class="header__header-column">
+                <span class="header__icon">
+                    <i class="fas fa-search"></i>
+                </span>
+                <span class="header__icon">
+                    <i class="fas fa-bars"></i>
+                </span>
+            </div>
+        </header>
     </div>
-    <header class="header">
-        <div class="header__header-column">
-            <a href="index.html" class="header__back-btn">
-                <i class="fas fa-arrow-left"></i>
-            </a>
-            <h1 class="header__title">Best Friend</h1>
-        </div>
-        <div class="header__header-column">
-            <span class="header__icon">
-                <i class="fas fa-search"></i>
-            </span>
-            <span class="header__icon">
-                <i class="fas fa-bars"></i>
-            </span>
-        </div>
-    </header>
-    <main class="chat">
+    <main class="chat-screen">
         <ul class="chat__messages">
             <span class="chat__timestamp">
-                2020년 2월 6일 목요일
+                Friend, February 15, 2020
             </span>
             <li class="incoming-messages message">
                 <img src="images/avatar.jpg" alt="" class="g-avatar message__avatar">
                 <div class="message__content">
-                    <span class="message__author">
-                        Best Friend
-                    </span>
                     <div class="message__bubble">
                         아무노래나 일단 틀어
                     </div>
+                    <span class="message__author">
+                        Jiseon
+                    </span>
                 </div>
-                <span class="message__timestamp">
-
-                </span>
             </li>
-            <li class="incoming-messages message">
-                <span class="message__timestamp">
-
-                </span>
+            <li class="sent-messages message">
                 <div class="message__content">
                     <div class="message__bubble">
                         아무거나 신나는 걸로
+                    </div>
+                </div>
+            </li>
+            <li class="incoming-messages message">
+                <img src="images/avatar.jpg" alt="" class="g-avatar message__avatar">
+                <div class="message__content">
+                    <div class="message__bubble">
+                        아무렇게나 춤춰
+                    </div>
+                    <span class="message__author">
+                        Jiseon
+                    </span>
+                </div>
+            </li>
+            <li class="sent-messages message">
+                <div class="message__content">
+                    <div class="message__bubble">
+                        아무렇지 않아 보이게
                     </div>
                 </div>
             </li>
